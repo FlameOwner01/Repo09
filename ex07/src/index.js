@@ -1,7 +1,7 @@
 // Write code below this line
 function logicalAndOperator(num){
     if(num <= 80 && num >= 40) return "Yes";
-    else return "No";
+    return "No";
 }
 console.log(logicalAndOperator(0));
 console.log(logicalAndOperator(24));
